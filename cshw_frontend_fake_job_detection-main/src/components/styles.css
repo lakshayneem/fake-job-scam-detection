@@ -1,0 +1,53 @@
+.pricing-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pricing-nav {
+  margin-bottom: 20px;
+}
+
+.pricing-tabs {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pricing-tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.pricing-underline {
+  height: 3px;
+  background-color: blue;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.pricing-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+}
+
+.plan-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.plan-image {
+  width: 100px;
+  height: auto;
+}
+
+.plan-text {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}

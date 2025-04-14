@@ -1,0 +1,19 @@
+services:
+  frontend:
+    build: ./cshw_frontend_fake_job_detection-main
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+  backend:
+    build: ./cshw_backend_fake_job_detection-main
+    ports:
+      - "8080:8080"
+    depends_on:
+      - ml-api
+
+  ml-api:
+    build: ./cshw_machine_learning-main
+    ports:
+      - "8000:8000"
